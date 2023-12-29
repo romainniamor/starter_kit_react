@@ -1,8 +1,12 @@
-function SwitchButton({ toggleTheme, theme }) {
+import useTheme from "../contexts/theme";
+
+function SwitchButton() {
+  const { theme, toggleTheme } = useTheme();
+
   return (
     <button
       onClick={toggleTheme}
-      className="rounded-full bg-white dark:bg-black dark:text-white  p-2 "
+      className="rounded-full text-neutral-950 bg-stone-100 dark:bg-neutral-950 dark:text-stone-100  p-2 "
     >
       {theme === "dark" ? (
         <svg

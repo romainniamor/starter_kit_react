@@ -3,7 +3,12 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   darkMode: "class",
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        grayson: ["grayson", "sans-serif"],
+        hello: ["hello_santtinyregular", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 };

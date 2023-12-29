@@ -2,6 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "grayson";
+  src: url("./assets/fonts/grayson-regular-webfont.woff2") format("woff2"),
+    url("./assets/fonts/grayson-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "hello_santtinyregular";
+  src: url("./assets/fonts/hellosanttiny-webfont.woff2") format("woff2"),
+    url("./assets/fonts/hellosanttiny-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 html,
 body {
   padding: 0;
